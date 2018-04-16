@@ -6,10 +6,6 @@ import Step from './../containers/Step'
 import game from './../utils/game'
 
 class Game extends React.Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         const winner = game.calculateWinner(this.props.history[this.props.stepNumber].squares);
         let status;
