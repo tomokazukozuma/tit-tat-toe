@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { ConnectedRouter } from 'react-router-redux';
 import './index.css';
 
 import { createStore } from 'redux'
